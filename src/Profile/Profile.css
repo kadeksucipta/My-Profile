@@ -1,0 +1,87 @@
+.box-home {
+    background: radial-gradient(circle at top right, rgba(255, 122, 193, 0.731), rgba(131, 255, 245, 0.612)),  url(https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    color: white;
+    padding: 5rem 1rem;
+}
+.img-profile {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto {
+    border: 2px solid rgb(255, 122, 193);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.btn-cv {
+    max-width: 100%;
+    background: radial-gradient(circle at top right, rgb(255, 122, 193), rgb(131, 255, 245));
+    color: black;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    margin-right: 20px;
+}
+.btn-contact {
+    max-width: 100%;
+    background: radial-gradient(circle at top right, rgb(255, 122, 193), rgb(131, 255, 245));
+    color: black;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+}
+.btn-profile {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.container-profile {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.card-profile {
+    max-width: 100%;
+}
+.nav-profile {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: fixed;
+}
+.btn-skill-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-skill {
+    max-width: 100%;
+    background: none;
+    color: rgb(255, 122, 193);
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    margin-right: 80px;
+    width: 60px;
+    border: 2px solid rgb(255, 122, 193);
+}
+.btn-project {
+    max-width: 100%;
+    background: none;
+    color: rgb(255, 122, 193);
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    border: 2px solid rgb(255, 122, 193);
+}
+.button-kirim {
+    color: black;
+    background: radial-gradient(circle at top right, rgb(255, 122, 193), rgb(131, 255, 245));
+}
+.button-batal {
+    border: 1px solid rgb(255, 122, 193);
+    background-color: white;
+    color: rgb(255, 122, 193)
+}
