@@ -24,6 +24,7 @@ import express from "./aset/express.png";
 import mongo from "./aset/mongo.png";
 import mern from "./aset/MERN.png";
 import wa from "./aset/wa2.png";
+import portal from "./aset/portal.png"
 
 import "./Landing.css";
 import AnimatedPage from "../Component/animated";
@@ -118,24 +119,6 @@ const Landing = () => {
             height: "50px",
           }}
         ></div>
-        {/* <Navbar
-        style={{ position: "fixed", background: "white" }}
-        className="nav-porto"
-        expand="lg"
-      >
-        <Container>
-          <Navbar.Brand href="#home">
-            <strong>Kadek</strong>Sucipta
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#skill">Skill</Nav.Link>
-              <Nav.Link href="#project">Project</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar> */}
 
         <Container>
           <div className="lds-grid">
@@ -250,19 +233,7 @@ const Landing = () => {
               </div>
             </div>
           </Container>
-
-          {/* 
-        <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-          </Card.Body>
-        </Card> */}
+          
           <br />
           <div className="proyek">
             <h2 className="text-center" id="project">
@@ -403,7 +374,8 @@ const Landing = () => {
                     <Card.Img
                       style={{ borderRadius: "0", objectFit: "contain" }}
                       variant="top"
-                      src={"https://agreeable-lime-slippers.cyclic.app/images/" + item.image_url}
+                      // src={"https://agreeable-lime-slippers.cyclic.app/images/" + item.image_url}
+                      src={portal}
                     />
                   </div>
                   <div className="details">
