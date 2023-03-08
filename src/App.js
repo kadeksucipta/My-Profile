@@ -1,9 +1,9 @@
 import './App.css';
-import Profile from './Profile/Profile';
+import Landing from './Landing/Landing';
 
 function App() {
   return (
-    <Profile/>
+    <Landing/>
   )
 }
 

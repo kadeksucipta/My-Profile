@@ -5,7 +5,6 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import store from "./App/store"
-import Project from "./Project/Project";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Provider } from "react-redux";
 
@@ -13,10 +12,6 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App/>
-  },
-  {
-    path: "Project",
-    element: <Project />
   },
 
 ])
