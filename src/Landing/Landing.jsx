@@ -29,7 +29,7 @@ import portal from "./aset/portal.png"
 import "./Landing.css";
 import AnimatedPage from "../Component/animated";
 
-const PDF_FILE_URL = "http://localhost:3000/CV_Kadek Sucipta.pdf";
+const PDF_FILE_URL = "https://agreeable-lime-slippers.cyclic.app/CV_Kadek Sucipta.pdf";
 
 const Landing = () => {
   const [products, setProducts] = useState([]);
