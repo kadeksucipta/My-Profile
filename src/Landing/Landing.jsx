@@ -233,7 +233,7 @@ const Landing = () => {
               </div>
             </div>
           </Container>
-          
+
           <br />
           <div className="proyek">
             <h2 className="text-center" id="project">
@@ -287,7 +287,7 @@ const Landing = () => {
                         ))}
                       </div>
                       <div className="icon-porto">
-                        <a href="https://github.com/kadeksucipta/Otak-Business-FE/tree/main/src">
+                        <a href="https://github.com/kadeksucipta/Otak-Business-FE/blob/main/src/Home/Home.jsx">
                           <FontAwesomeIcon
                             style={{
                               fontSize: "23px",
