@@ -176,11 +176,15 @@ body {
 }
 /* CONTACT */
 .scan-wa {
-    display: grid;
+    display: flex;
     justify-content: center;
-    margin-top: 10%;
+    align-items: center;
+    margin-top: 2%;
 }
-.text-scan {
+.text-wa {
+    margin-right: 10px;
+}
+.title-contact {
     text-align: center;
 }
 
@@ -459,7 +463,7 @@ body {
     .scan-wa {
         display: flex;
         justify-content: center;
-        margin-top: 10%;
+        margin-top: 4%;
     }
     .text-scan {
         text-align: center;
@@ -566,6 +570,10 @@ body {
         border-color: #FFF;
         box-sizing: border-box;
         animation: rotation 2s linear infinite;
+      }
+      .scan-wa {
+        display: grid;
+        place-items: center;
       }
 }
 /* @media only screen and (max-width: 480px) {

@@ -4,6 +4,7 @@ import {
   faInstagram,
   faLinkedin,
   faReact,
+  faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faDownload, faExternalLink } from "@fortawesome/free-solid-svg-icons";
@@ -487,10 +488,35 @@ const Landing = () => {
           <span class="loader"></span>
         </Container>
 
+        <Container style={{marginTop: "100px", marginBotom: "100pxs"}}>
+        <h3 className="title-contact"><strong>Contact me</strong></h3>
+        <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  background: "white",
+                  width: "20%",
+                  height: "5px",
+                  marginTop: "-5px",
+                }}
+              ></div>
+            </div>
         <div className="scan-wa">
-          {/* <h3 className="text-scan">Scan me</h3> */}
-          <img className="img-wa" src={wa} alt="" />
+      
+          <h3 className="text-wa"><FontAwesomeIcon icon={faWhatsapp} /> 081917057795 |</h3>
+          
+          <h3 className="text-email"><FontAwesomeIcon icon={faEnvelope} /> kadek.sucipta005@gmail.com</h3>
         </div>
+
+        </Container>
 
         <Container>
           <div className="about-me">
