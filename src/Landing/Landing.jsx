@@ -29,7 +29,7 @@ import portal from "./aset/portal.png"
 import "./Landing.css";
 import AnimatedPage from "../Component/animated";
 
-const PDF_FILE_URL = "http://agreeable-lime-slippers.cyclic.app/CV_Kadeksucipta.pdf";
+const PDF_FILE_URL = "https://agreeable-lime-slippers.cyclic.app/CV_Kadek Sucipta.pdf";
 
 const Landing = () => {
   const [products, setProducts] = useState([]);
@@ -39,14 +39,19 @@ const Landing = () => {
   const [tags, setTags] = useState([]);
 
   const downloadFileAtURL = (url) => {
-    const fileName = url.split('/').pop()
-    const aTag = document.createElement('a')
-    aTag.href = url
-    aTag.setAttribute('download', fileName)
-    document.body.appendChild(aTag)
-    aTag.click()
-    aTag.remove()
-  }
+    fetch(url)
+      .then((response) => response.blob())
+      .then((blob) => {
+        const blobURL = window.URL.createObjectURL(new Blob([blob]));
+        const fileName = url.split("/").pop();
+        const aTag = document.createElement("a");
+        aTag.href = blobURL;
+        aTag.setAttribute("download", fileName);
+        document.body.appendChild(aTag);
+        aTag.click();
+        aTag.remove();
+      });
+  };
 
   useEffect(() => {
     fetchProducts();
