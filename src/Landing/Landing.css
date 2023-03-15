@@ -111,16 +111,16 @@ body {
     background: none;
     color: rgb(0, 0, 0);
     border: 2px solid rgb(0, 0, 0);
-    padding: 5px 5px 5px 5px;
-    width: 40%;
+    padding: 8px 60px 8px 60px;
+    width: 80%;
     border-radius: 5px;
+    text-decoration: none;
 }
 .btn-download:hover {
     background: white;
     color: rgba(148,187,233,1);
     border: 2px solid rgba(148,187,233,1);
-    padding: 5px 5px 5px 5px;
-    width: 40%;
+    padding: 8px 60px 8px 60px;
 }
 
 .mern {

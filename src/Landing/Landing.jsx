@@ -29,7 +29,7 @@ import portal from "./aset/portal.png"
 import "./Landing.css";
 import AnimatedPage from "../Component/animated";
 
-const PDF_FILE_URL = "http://localhost:3000/CV_Kadek Sucipta.pdf";
+// const PDF_FILE_URL = "http://localhost:8000/CV_Kadek sucipta.pdf";
 
 const Landing = () => {
   const [products, setProducts] = useState([]);
@@ -38,20 +38,20 @@ const Landing = () => {
   const [projectTiga, setProjectTiga] = useState([]);
   const [tags, setTags] = useState([]);
 
-  const downloadFileAtURL = (url) => {
-    fetch(url)
-      .then((response) => response.blob())
-      .then((blob) => {
-        const blobURL = window.URL.createObjectURL(new Blob([blob]));
-        const fileName = url.split("/").pop();
-        const aTag = document.createElement("a");
-        aTag.href = blobURL;
-        aTag.setAttribute("download", fileName);
-        document.body.appendChild(aTag);
-        aTag.click();
-        aTag.remove();
-      });
-  };
+  // const downloadFileAtURL = (url) => {
+  //   fetch(url)
+  //     .then((response) => response.blob())
+  //     .then((blob) => {
+  //       const blobURL = window.URL.createObjectURL(new Blob([blob]));
+  //       const fileName = url.split("/").pop();
+  //       const aTag = document.createElement("a");
+  //       aTag.href = blobURL;
+  //       aTag.setAttribute("download", fileName);
+  //       document.body.appendChild(aTag);
+  //       aTag.click();
+  //       aTag.remove();
+  //     });
+  // };
 
   useEffect(() => {
     fetchProducts();
@@ -184,15 +184,26 @@ const Landing = () => {
                 </p>
               </div>
               <div className="name">
-                <button
+                {/* <button
                   className="btn-download"
                   style={{ marginRight: "10px" }}
-                  onClick={() => {
-                    downloadFileAtURL(PDF_FILE_URL);
-                  }}
+                  // onClick={() => {
+                  //   downloadFileAtURL(PDF_FILE_URL);
+                  // }}
                 >
                   <FontAwesomeIcon icon={faDownload} /> Download CV
-                </button>
+                </button> */}
+
+                  <a
+                  href="https://drive.google.com/file/d/1rJNZMk20eQI562H4Kfu1LMLcLWfkLESi/view?usp=sharing"
+                  className="btn-download"
+                  style={{ marginRight: "10px" }}
+                  // onClick={() => {
+                  //   downloadFileAtURL(PDF_FILE_URL);
+                  // }}
+                >
+                  <FontAwesomeIcon icon={faDownload} /> Download CV
+                </a>
               </div>
             </div>
           </div>
