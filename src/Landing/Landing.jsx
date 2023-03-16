@@ -182,6 +182,8 @@ const Landing = () => {
                 <p style={{ fontSize: "20px" }} className="name-perkenalan">
                   Junior Front End developer yang mampu menggunakan aplikasi
                   MERN Stack untuk membuat Website.
+                  <br />
+                  Selalu belajar bagaimana cara membuat dan memecahkan sebuah masalah dari proses pembuatan website.
                 </p>
               </div>
               <div className="name">
@@ -220,7 +222,7 @@ const Landing = () => {
                   <div
                     style={{
                       background: "white",
-                      width: "50%",
+                      width: "85%",
                       height: "5px",
                       marginTop: "5px",
                     }}
@@ -488,7 +490,7 @@ const Landing = () => {
           <span class="loader"></span>
         </Container>
 
-        <Container style={{marginTop: "100px", marginBotom: "100pxs"}}>
+        <Container style={{marginTop: "20%", marginBotom: "100px"}}>
         <h3 className="title-contact"><strong>Contact me</strong></h3>
         <div
               style={{
@@ -518,7 +520,7 @@ const Landing = () => {
 
         </Container>
 
-        <Container>
+        {/* <Container>
           <div className="about-me">
             <div className="me-2">
               <h2>
@@ -547,7 +549,7 @@ const Landing = () => {
               <img className="mern" src={mern} alt="" />
             </div>
           </div>
-        </Container>
+        </Container> */}
         <Container>
           <div className="lds-grid">
             <div></div>
