@@ -311,7 +311,7 @@ const Landing = () => {
                             icon={faGithub}
                           />
                         </a>
-                        <a href="https://coffee-shop-fe-ten.vercel.app/">
+                        <a href="https://otak-business-coffe.vercel.app/">
                           <FontAwesomeIcon
                             style={{
                               fontSize: "23px",
