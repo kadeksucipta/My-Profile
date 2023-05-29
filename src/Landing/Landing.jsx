@@ -406,7 +406,7 @@ const Landing = () => {
                         ))}
                       </div>
                       <div className="icon-porto">
-                        <a href="https://github.com/kadeksucipta/Portal-freelance-FE/blob/main/src/page/Home/Homepage.jsx">
+                        <a href="https://github.com/kadeksucipta/Lagi-kerja-fe">
                           <FontAwesomeIcon
                             style={{
                               fontSize: "23px",
@@ -416,7 +416,7 @@ const Landing = () => {
                             icon={faGithub}
                           />
                         </a>
-                        <a href="https://portal-freelance-fe.vercel.app/Homepage">
+                        <a href="https://lagi-kerja-fe.vercel.app/">
                           <FontAwesomeIcon
                             style={{
                               fontSize: "23px",
